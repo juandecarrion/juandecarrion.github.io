@@ -5,12 +5,14 @@
   "author": "juandecarrion <juandeee@gmail.com>",
   "private": true,
   "dependencies": {
-    "nuxt": "latest"
+    "nuxt": "^0.9.6",
+    "push-dir": "^0.4.1"
   },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   }
 }
