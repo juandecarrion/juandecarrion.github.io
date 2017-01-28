@@ -1,0 +1,16 @@
+{
+  "name": "juandecarrion.github.io",
+  "version": "1.0.0",
+  "description": "Juande Carrion",
+  "author": "juandecarrion <juandeee@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "nuxt": "latest"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  }
+}
